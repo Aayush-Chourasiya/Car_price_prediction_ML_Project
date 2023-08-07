@@ -55,3 +55,6 @@ Saving Time and Effort: Buyers can quickly estimate fair price ranges without ma
 Selling Assistance: Sellers can use the model to set reasonable prices based on their car's characteristics, attracting potential buyers more effectively.
 
 Financial Planning: Accurate price predictions aid in financial planning, allowing individuals to make informed decisions about selling their car and its impact on their overall financial situation.
+
+![Screenshot (1637)](https://github.com/Aayush-Chourasiya/Price-Prediction-of-Pre-Owned-Cars/assets/133970565/5a4127e8-fb4f-4b61-ac3b-424c1b44a3a4)
+
