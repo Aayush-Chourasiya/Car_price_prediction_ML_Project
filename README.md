@@ -12,36 +12,46 @@ With the help of Machine Learning model we have Predicted the used Hyundai car p
 ![Screenshot (1615)](https://github.com/Aayush-Chourasiya/Price-Prediction-of-Pre-Owned-Cars/assets/133970565/7d9f61f6-4763-43eb-a448-02ffccc15054)
 
 
-# insights
-Image daal
+# Insights
+![Screenshot (1626)](https://github.com/Aayush-Chourasiya/Price-Prediction-of-Pre-Owned-Cars/assets/133970565/490e0498-d7c2-4a11-b6df-999f9fbe6d0c)
+
+
+![Screenshot (1628)](https://github.com/Aayush-Chourasiya/Price-Prediction-of-Pre-Owned-Cars/assets/133970565/1fd8ed20-adab-4d82-a400-43a070296b49)
+
+
+
+
 
 # Discription
 
-Objective: To build a Machine Learning model (Linear Regression) that can predict prices (label) of used cars based on various features
-Data Collection: For this, a reasonable and large enough dataset was required. Now, instead of looking for some old data or sample data available on the internet, I decided to scrape the website of a service provider already working in this field. So, I came across spinny.com which has a simple yet cool UI. Finally, the data was scrapped from this website.
-Data Cleaning & Feature Engineering: Initially the dataset had all the data in just 7 columns, the data had null values, duplicates, and noise too. After applying techniques like Data Cleaning (imputation, outlier detection, and removing duplicate records), EDA, and Feature Generation, a total of 14 meaningful features were generated, which can be used for drawing insights through aggregations and visualization. Then, I applied some final techniques, to prepare the final data for training the model, like Feature Selection, Feature Encoding, and Feature Scaling. The final dataset has the following independent features:
+Objective: Build a Linear Regression ML model to predict used car prices based on various features.
 
-Model
-body type
-fuel type
-transmission
-model (year)
-km driven (in thousands)
-mileage (in kmpl)
-eating capacity (units)
-ground clearance (in mm)
-boot space (inliterss)
-fuel tank capacity (inliterss)
-max power (in bhp)
+Data Collection: Scraped data from spinny.com, a service provider in the field, to obtain a reasonable and large dataset.
 
-Data Analysis and Visualisation: Meanwhile data analysis through groupby, pivot table, and aggregate functions was also done and the data was visualized (screenshots may be referred to).
-Training: The final dataset was then split into training and testing datasets and trained through Linear Regression.
-Testing: The predicted values for the label (price) were then generated. The accuracy came out to be 85% using the R2 score metric and 84% using the Adjusted R2 score method.
-Predicting (Applying the Model): As a test case, predicting the price of a used car using hypothetical features seems to be quite reasonable and meaningful. The model now can be used by a user who may be a buyer/seller to predict the prices of pre-owned cars.
+Data Cleaning & Feature Engineering: Handled null values, duplicates, and noise. Generated 14 meaningful features through EDA and feature generation techniques.
 
-#Future Scope of the Model for the Masses:
-Empowering Buyers: The model can assist potential buyers in estimating the fair market value of a used car they are interested in. By inputting the car's relevant characteristics, such as make, model, year, mileage, condition, and additional features, the model can provide a predicted price range. This helps buyers make informed decisions and negotiate better deals.
-Transparent Pricing: The model can increase transparency in the used car market by providing a standardized and objective pricing mechanism. It reduces information asymmetry between sellers and buyers, ensuring that individuals are less likely to be taken advantage of due to a lack of market knowledge. The model's predictions can serve as a reference point for evaluating a seller's asking price.
-Saving Time and Effort: Instead of manually researching and comparing prices for similar used cars, individuals can rely on the machine learning model to quickly estimate a fair price range. This saves time and effort for potential buyers, allowing them to focus on other aspects of the purchasing process.
-Selling Assistance: The model can also benefit sellers by guiding them in setting reasonable prices for their used cars. By considering the characteristics of their vehicle and examining the predicted price range, sellers can ensure they are not undervaluing or overpricing their cars. This helps sellers attract potential buyers more effectively.
-Financial Planning: The availability of accurate price predictions can aid individuals in their financial planning. For example, if someone intends to sell their car in the future, they can estimate its potential value using the machine learning model. This information allows them to make informed decisions about when to sell and how it may impact their overall financial situation.
+Final Data Preparation: Applied feature selection, encoding, and scaling to prepare the dataset for training the model.
+
+Independent Features: Model, body type, fuel type, transmission, model year, km driven, mileage, seating capacity, ground clearance, boot space, fuel tank capacity, max power.
+
+Data Analysis and Visualization: Conducted data analysis using group by, pivot tables, and aggregation, and visualized the data for insights.
+
+Training: Split the dataset into training and testing sets, and trained the model using Linear Regression.
+
+Testing: Generated predicted values for prices and evaluated model accuracy using R2 score and Adjusted R2 score (85% and 84%, respectively).
+
+Predicting: The model can be used by buyers/sellers to predict the prices of pre-owned cars using hypothetical features.
+
+
+
+# Future Scope of the Model for the Masses:
+
+Empowering Buyers: The model estimates the fair market value for used cars based on input characteristics (make, model, year, mileage, condition, and features), helping buyers make informed decisions and negotiate better deals.
+
+Transparent Pricing: The model provides standardized and objective pricing, reducing information asymmetry between sellers and buyers, and preventing exploitation due to a lack of market knowledge.
+
+Saving Time and Effort: Buyers can quickly estimate fair price ranges without manual research, saving time and effort during the purchasing process.
+
+Selling Assistance: Sellers can use the model to set reasonable prices based on their car's characteristics, attracting potential buyers more effectively.
+
+Financial Planning: Accurate price predictions aid in financial planning, allowing individuals to make informed decisions about selling their car and its impact on their overall financial situation.
