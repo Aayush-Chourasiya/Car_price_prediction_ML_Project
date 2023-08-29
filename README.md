@@ -1,4 +1,3 @@
-
 # Used  Hyundai  Car  Price  Prediction 
 
 With the help of Machine Learning model we have Predicted the used Hyundai car prices in UK including various Influential Factors such as Model, Year, Mileage, Fuel type, Engine Size which significantly impact the prices of used cars
@@ -42,6 +41,20 @@ Testing: Generated predicted values for prices and evaluated model accuracy usin
 
 Predicting: The model can be used by buyers/sellers to predict the prices of pre-owned cars using hypothetical features.
 
+# Conclusion
+- Error Distribution: After training our model, we analyzed the difference between the test and predicted values using a distribution plot. The errors followed a normal distribution with a mean close to zero. This indicates that our model's predictions are generally accurate, as the errors are minimal.
+- Scatter Plot Analysis: We plotted the test points against the predicted points using a scatter plot. The points aligned closely along the diagonal line, indicating a strong correlation between the predicted and actual values. This suggests that our model is effectively capturing the patterns and trends in the data.
+- Performance Metrics: We evaluated the performance of our model using metrics such as Root Mean Square Error (RMSE), R2 Score, and Mean Square Error (MSE). Our model achieved an RMSE of 1.36 and an MSE of 1.97 for the test and predicted test values. These metrics provide insights into the accuracy and precision of our model's predictions.
+- Accuracy Score: While accuracy score is typically used for classification tasks, we adapted it to assess the accuracy of our regression model. By setting a cutoff based on MSE, we classified predictions as either correct or incorrect. Our model achieved an accuracy score of 93.4%, indicating its effectiveness in predicting used car prices.
+
+# Challenges
+- Transforming categorical values and removing unnecessary features for regression compatibility.
+
+- Finding the best regression algorithm and dealing with challenges in gridsearchCV for hyper parameter tuning.
+
+- Identifying influential features using techniques like Pearson coefficient correlation and extra tree regressor.
+
+- Learning HTML from scratch to develop a webpage showcasing the model's workings.
 
 
 # Future Scope of the Model for the Masses:
@@ -55,6 +68,3 @@ Saving Time and Effort: Buyers can quickly estimate fair price ranges without ma
 Selling Assistance: Sellers can use the model to set reasonable prices based on their car's characteristics, attracting potential buyers more effectively.
 
 Financial Planning: Accurate price predictions aid in financial planning, allowing individuals to make informed decisions about selling their car and its impact on their overall financial situation.
-
-![Screenshot (1637)](https://github.com/Aayush-Chourasiya/Price-Prediction-of-Pre-Owned-Cars/assets/133970565/5a4127e8-fb4f-4b61-ac3b-424c1b44a3a4)
-
