@@ -27,6 +27,10 @@ Predicting: The model can be used by buyers/sellers to predict the prices of pre
 
 
 Testing: Generated predicted values for prices and evaluated model accuracy using R2 score and Adjusted R2 score (85% and 84%, respectively).
+![WhatsApp Image 2023-09-11 at 22 00 36](https://github.com/Aayush-Chourasiya/Car_price_prediction_ML_Project/assets/133970565/5bf93b22-58fd-48d2-98eb-37f45933be74)
+![WhatsApp Image 2023-09-11 at 22 01 43](https://github.com/Aayush-Chourasiya/Car_price_prediction_ML_Project/assets/133970565/5142165b-0194-4248-83a2-fff5e40d00fa)
+
+
 
 # Dataset
 ![Screenshot (1615)](https://github.com/Aayush-Chourasiya/Price-Prediction-of-Pre-Owned-Cars/assets/133970565/7d9f61f6-4763-43eb-a448-02ffccc15054)
