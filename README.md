@@ -3,23 +3,9 @@
 With the help of Machine Learning model we have Predicted the used Hyundai car prices in UK including various Influential Factors such as Model, Year, Mileage, Fuel type, Engine Size which significantly impact the prices of used cars
 
 # Objectives
-- Accurate price predictions for the buyers to make informed decisions by evaluating the fairness of asking prices and for Sellers they can set appropriate prices based on market trends, which increasing their chances of a successful sale.
+- Accurate price predictions for the buyers to make informed decisions by evaluating the fairness of asking prices and for Sellers they can set appropriate prices based on market trends, which increases their chances of a successful sale.
 
 - This project aims to contribute to the understanding of used car pricing dynamics by analyzing data and uncovering the relationships between factors and prices. And make Valuable insights gained from this research can benefit market participants and improve transparency in the used car market.
-
-# Dataset
-![Screenshot (1615)](https://github.com/Aayush-Chourasiya/Price-Prediction-of-Pre-Owned-Cars/assets/133970565/7d9f61f6-4763-43eb-a448-02ffccc15054)
-
-
-# Insights
-![Screenshot (1626)](https://github.com/Aayush-Chourasiya/Price-Prediction-of-Pre-Owned-Cars/assets/133970565/490e0498-d7c2-4a11-b6df-999f9fbe6d0c)
-
-
-![Screenshot (1628)](https://github.com/Aayush-Chourasiya/Price-Prediction-of-Pre-Owned-Cars/assets/133970565/1fd8ed20-adab-4d82-a400-43a070296b49)
-
-
-
-
 
 # Discription
 
@@ -36,10 +22,38 @@ Independent Features: Model, body type, fuel type, transmission, model year, km 
 Data Analysis and Visualization: Conducted data analysis using group by, pivot tables, and aggregation, and visualized the data for insights.
 
 Training: Split the dataset into training and testing sets, and trained the model using Linear Regression.
+Predicting: The model can be used by buyers/sellers to predict the prices of pre-owned cars using hypothetical features.
+
+
 
 Testing: Generated predicted values for prices and evaluated model accuracy using R2 score and Adjusted R2 score (85% and 84%, respectively).
 
-Predicting: The model can be used by buyers/sellers to predict the prices of pre-owned cars using hypothetical features.
+# Dataset
+![Screenshot (1615)](https://github.com/Aayush-Chourasiya/Price-Prediction-of-Pre-Owned-Cars/assets/133970565/7d9f61f6-4763-43eb-a448-02ffccc15054)
+
+
+# Insights
+![Screenshot (1626)](https://github.com/Aayush-Chourasiya/Price-Prediction-of-Pre-Owned-Cars/assets/133970565/490e0498-d7c2-4a11-b6df-999f9fbe6d0c)
+
+- The top models with the highest counts are Tucson, I10, and I30, indicating their prevalence in the dataset.
+- Petrol has the highest count (2902), followed by diesel (1608), hybrid (349), and others (1).
+- The manual transmission has the highest count (3611), followed by automatic (669), semi-auto (578), and others (2).
+- Santa Fe has the highest Average Price among all around(21.6k), followed by Ioniq, I800, and others.
+
+
+
+
+
+
+
+
+
+![Screenshot (1628)](https://github.com/Aayush-Chourasiya/Price-Prediction-of-Pre-Owned-Cars/assets/133970565/1fd8ed20-adab-4d82-a400-43a070296b49)
+
+- The price demonstrates a strong positive correlation with the Model, Engine size, and year, while a weak correlation is observed with Total Driven, Fuel Type, and mpg.
+-  The Random Forest model shows the lowest MSE and MAE values, indicating better accuracy and precision in predicting the target variable.
+- With an R-squared score of 0.93, the Random Forest model demonstrates a strong correlation between the predicted and actual value.
+
 
 # Conclusion
 - Error Distribution: After training our model, we analyzed the difference between the test and predicted values using a distribution plot. The errors followed a normal distribution with a mean close to zero. This indicates that our model's predictions are generally accurate, as the errors are minimal.
